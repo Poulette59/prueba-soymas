@@ -12,7 +12,7 @@
 <body>
   <h1>Mi Aplicación Web</h1>
 
-  <form class="container" netlify="true">
+  <form class="container" netlify="true" action="welcome">
     <h2>Escríbeme tus comentarios</h2>
     
     <div class="mb-3">
@@ -20,7 +20,11 @@
       <input type="text" class="form-control" id="fullnameInput" name="firstName">
     </div>
     
-
+    <div class="mb-3">
+        <label for="LastNameInput" class="form-label">Apellido</label>
+        <INPUT class="form-control" id="LastNameInput" name="LastName">
+      </div>
+      
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 
